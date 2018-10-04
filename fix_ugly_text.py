@@ -9,8 +9,11 @@ Created on Sun Mar 26 11:16:32 2017
 
 import goslate
 
+UGLY_TEXT  = "Uglytext"
+FIXED_TEXT = "FixedText"
+
 # read text
-fh = open("Uglytext", "r")
+fh = open(UGLY_TEXT, "r")
 uglyText = fh.read()
 fh.close()
 
@@ -23,7 +26,7 @@ gs = goslate.Goslate()
 fixText3 = gs.translate(fixText2, 'es')
 
 # write traduction
-fh = open("FixedText", "w")
+fh = open(FIXED_TEXT, "w")
 fh.write(fixText2)
 fh.write("\n---------------Traduccion----------------\n")
 fh.write(fixText3)
