@@ -2,7 +2,6 @@
 """
 Created on Sun Mar 26 11:16:32 2017
 
-@author: Rafael Chunga Quispe
 
 
 """
